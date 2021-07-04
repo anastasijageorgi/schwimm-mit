@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<!-- language deutch -->
+<html lang="de">
+	<head>
+
+		<meta charset= "utf-8">
+
+		<title>Schwimm-mit</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="ana.css">
+
+		<link rel="shortcut icon" href="schwimmmit_icon.png" type="image/x-icon">
+
+		<meta name="description" content="Schwimmen lernen in Graz. Schwimm-mit bittet 	individuelle Schwimmstunden für jeden an.">
+
+
+	</head>
+
+	<body>
+		<header>
+
+		<a href="index.html">  <img class="bild" src="bilder/schwim_logo_home.svg" alt="Logo Schwimm-mit"/></a>
+
+		<nav>
+
+		 	<a style="color: #00ced1"  href="index.html"> Home </a>
+			<a   href="Aktuell.html"> Aktuell </a>
+			<a   href="Kurse.html"> Kurse </a>
+		  <a href="Bio.html"> Bio </a>
+
+		</nav>
+
+
+		</header>
+
+		<main>
+			<section id="blasen">
+			<section id="mission">
+
+				<picture>
+  			<source srcset="bilder/schwim_logo_title.svg" media="(min-width: 768px)">
+  			<img src="bilder/schwim_logo_title_box.svg" alt="Logo-grafik">
+				</picture>
+
+
+			<section class="phome">
+			<p> Schwimm-mit ist eine Einladung!<p/>
+			<p> Dich auf deinem schwimmerischen Weg individuell zu unterstützen.</p>
+			<br/>
+			</section>
+
+			<h2>
+		 <a href="Aktuell.html" title=" Trainingspläne, Aktuelle ereignisse, 	Komentare.">Aktuell</a>
+		 </h2>
+		 <p>  Hier findest du Tipps, Reflektionen, Trainingspläne!
+		 </p>
+
+			<h2>
+			<a href="Kurse.html" title="Schwimmstunden modelle"> Kurse </a>
+ 			</h2>
+			<p> bitten Überblick uber Inhalte und gestaltungs möglichkeiten des zusamen-tuns.</p>
+			<p><a href="Kurse.html#mission0" title="Kennenlernen">Kennenlern</a> und
+			<a href="Kurse.html#mission4" title="Wiedersehen">Wiedersehen</a>
+			 sind  Einzel-Einheiten.</p>
+			<p>
+			<a  href="Kurse.html#mission1" title="Grüne Welle">Grüne Welle</a>,
+			<a  href="Kurse.html#mission2" title=" Haiflosse">Haiflosse</a>
+			und
+			<a href="Kurse.html#mission3" title=" Walhai">Walhai</a>
+			 sind Block-Einheiten.</p>
+
+			<h2>
+			<a href="Bio.html" title="Biografie: Anastasija Georgi">Bio</a>
+			</h2>
+			<p>  Hier kanst du mich kennenlernen, und erfahren was mich zum schwimmen bewegt!
+			</p>
+		</section>
+
+		<figure class="mySlides">
+			<img class="rund" src="bilder/gallerie/home_1.jpg" alt="schwimmer"/>
+			<figcaption><p class="pright"> Foto: Monika Tockner</p>
+				</figcaption>
+		</figure>
+
+	<figure class="mySlides">
+			<img class="rund" src="bilder/gallerie/home_2.jpg" alt="schwimmer"/>
+			<figcaption><p class="pright"> Foto: Monika Tockner</p>
+				</figcaption>
+		</figure>
+
+		<figure class="mySlides">
+			<img class="rund" src="bilder/gallerie/home_3.jpg" alt="schwimmer"/>
+			<figcaption><p class="pright"> Foto: Monika Tockner</p>
+				</figcaption>
+		</figure>
+
+		<figure class="figurelang mySlides">
+			<img class="rund" src="bilder/gallerie/home_4.jpg" alt="schwimmer"/>
+			<figcaption><p class="pright"> Foto: Monika Tockner</p>
+				</figcaption>
+		</figure>
+
+		<figure class="figurelang mySlides">
+			<img class="rund" src="bilder/gallerie/home_5.jpg" alt="schwimmer"/>
+			<figcaption><p class="pright"> Foto: Monika Tockner</p>
+				</figcaption>
+		</figure>
+
+		<figure class="figurelang mySlides">
+			<img class="rund" src="bilder/gallerie/home_6.jpg" alt="schwimmer"/>
+			<figcaption><p class="pright"> Foto: Monika Tockner</p>
+				</figcaption>
+		</figure>
+
+		<figure class="figurelang mySlides">
+			<img class="rund" src="bilder/gallerie/home_7.jpg" alt="schwimmer"/>
+			<figcaption><p class="pright"> Foto: Monika Tockner</p>
+				</figcaption>
+		</figure>
+
+		<script>
+		var myIndex = 0;
+		carousel();
+
+		function carousel() {
+			var i;
+			var x = document.getElementsByClassName("mySlides");
+			for (i = 0; i < x.length; i++) {
+				x[i].style.display = "none";
+			}
+			myIndex++;
+			if (myIndex > x.length) {myIndex = 1}
+			x[myIndex-1].style.display = "block";
+			setTimeout(carousel, 1400); // Change image every 2 seconds
+		}
+		</script>
+
+		</section>
+
+		</main>
+
+		<footer>
+
+		<nav>
+
+		<a href="Kontakt.html"> Kontakt / Impressum </a>
+
+		</nav>
+
+		</footer>
+
+	</body>
+</html>
