@@ -275,11 +275,9 @@ picture	{
 
 .banner1
 	{
-	background-image:url("bilder/blog/banner-5-2000.JPG");
+	background-image:url("bilder/beitrag.svg");
 	background-size: cover;
 	border-radius: 1.6rem;
-	margin: -1.6rem -1.6rem 0 -1.6rem;
-	padding: 1.6rem;
 	}
 
 .banner2
