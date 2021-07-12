@@ -286,7 +286,12 @@ picture	{
 	background-size: cover;
 	border-radius: 1.6rem;
 	}
-
+	.banner3
+		{
+		background-image:url("bilder/grunewelle_banner.svg");
+		background-size: cover;
+		border-radius: 1.6rem;
+		}
 
 nav
 	{
@@ -387,7 +392,7 @@ footer
 	bottom: .4rem;
 	left: 30%;
 	}
-	
+
 .bild	{
 	width: 200px;
 	margin-left: auto;
@@ -551,6 +556,20 @@ main	{
 		font-family: Montserrat, sans-serif;
 		font-size: .8rem;
 		font-weight:400;
+}
+
+table.style3
+	{
+		table-layout: auto;
+		width: 60rem;
+	border-collapse: collapse;
+	border-spacing: 0;
+
+/*  border: 1px solid #3c98c7;*/
+	color: #000080;
+	font-family: Montserrat, sans-serif;
+	font-size: .8rem;
+	font-weight:400;
 }
 
 table.style1 tr td:nth-child(1) {width: 10%;}
