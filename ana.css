@@ -34,6 +34,7 @@ html
 		font-size: 1.4rem;
 		margin-top: .4rem;
 		margin-left: 1rem;
+
 		}
 h1 a 	{
 	color: #007a99;
@@ -46,13 +47,15 @@ h2, h2 a 	{
 	color:#007a99;
 	font-family: Montserrat, sans-serif;
 	font-size: 1.3rem;
+	word-wrap: break-word;
 	margin-top: .4rem;
+	margin-left: 1rem;
 	}
 
 h3, h3 a 	{
 	color: #007a99;
 	font-family: Montserrat, sans-serif;
-	font-size: 1.2rem;
+	font-size: 1.1rem;
 	}
 a h2 :link,a h2 :visited,a h2 :active
 	{
@@ -64,10 +67,13 @@ h2 a:hover {color: #000080;}
 p  a:link, p a:visited,  p a:active
 	{
 	color: #00cccc;
+	font-size: 1.1rem;
 	}
 p a:hover {color: #000080;}
 
-
+dd {
+    margin-bottom: 1em;
+}
 
 nav a:link, nav a:visited, nav a:active
 	{
@@ -244,14 +250,14 @@ picture	{
 
 .tp
 	{
-	max-width: 27rem;
+	max-width: 80%;
 	height: min-content;
-	background-color: #d5f6ff;
+	background-color: /*#d5f6ff;*/  #f3ffe6;
 	border: solid 5px #3c98c7;
-	border-top-left-radius: 3rem;
+	border-top-left-radius: 1.6rem;
 	border-top-right-radius: 1.6rem;
 	border-bottom-left-radius: 1.6rem;
-	border-bottom-right-radius: 3rem;
+	border-bottom-right-radius: 1.6rem;
 	padding: 1rem;
 	margin:1rem;
 	}
@@ -420,11 +426,13 @@ main	{
 */
 
 /*-----------------------------------------------------*/
+#walhai{}
 
+#grunewelle{}
 
+#haiflosse{}
 
 #blasen
-
 	{
 	display: flex;
 	flex-flow: row wrap;
@@ -526,7 +534,7 @@ main	{
 	{
 	background-color: #f5fffa;
 	max-width: 13rem;
-	padding: .2rem;
+	padding: 2px 10px;
 	margin: .6rem;
 	border-radius: .5rem;
   	display: block;
@@ -542,16 +550,42 @@ main	{
 		gap:10px;
 		}
 
+		thead
+			{
+				/*border: 1px solid #3c98c7;*/
+				text-align: center;
+		    background-color: #f5fffa;
+		    color: #000080;
+			}
+
+				tfoot {
+					/*	border: 1px solid #3c98c7;*/
+						text-align: center;
+						background-color: #f5fffa;
+				    color: #000080;
+					}
+
+		tbody {
+		    background-color: #d5f6ff;
+		}
+
+		td,
+		th {
+		    border-style: none; /*: 1px solid #3c98c7;*/
+				padding: 6px 6px;
+		}
+
+		td {
+		    text-align: center;
+		}
 
 
 	table.style1
 		{
-			table-layout: auto;
-			width: 13rem;
+		table-layout: auto;
+		width: 13rem;
 		border-collapse: collapse;
 		border-spacing: 0;
-
-  /*  border: 1px solid #3c98c7;*/
 		color: #000080;
 		font-family: Montserrat, sans-serif;
 		font-size: .8rem;
@@ -561,21 +595,31 @@ main	{
 table.style3
 	{
 		table-layout: auto;
-		width: 60rem;
-	border-collapse: collapse;
-	border-spacing: 0;
-
-/*  border: 1px solid #3c98c7;*/
-	color: #000080;
-	font-family: Montserrat, sans-serif;
-	font-size: .8rem;
-	font-weight:400;
+		width: 100%;
+	  border-collapse: collapse;
+	  color: #000080;
+	  font-family: Montserrat, sans-serif;
+	  font-size: .8rem;
+	  font-weight:400;
 }
+
+table.style3 tr td:nth-child(1) {width: 10%;}
+table.style3 tr td:nth-child(2) {width: 5%;}
+table.style3 tr td:nth-child(3) {width: 10%;}
+table.style3 tr td:nth-child(4) {text-align: left;}
+
+
+table.style3 thead { background-color: #e6e600;}
+table.style3 tfoot { background-color: #e6e600;}
+
+table.style3 tbody tr:nth-child(odd) {background-color:  #f3ffe6;}
+table.style3 tbody tr:nth-child(even) {background-color:  #c2f0c2;}
+
 
 table.style1 tr td:nth-child(1) {width: 10%;}
 table.style1 tr td:nth-child(2) {width: 5%;}
 table.style1 tr td:nth-child(3) {width: 10%;}
-
+table.style1 tr td:nth-child(4) {text-align: right;}
 
 table.style2
 	{
@@ -588,48 +632,6 @@ table.style2
 	font-style: italic;
 }
 
-thead
-	{
-		text-align: left;
-    background-color: #f5fffa;
-    color: #000080;
-	}
-
-		tfoot {
-				border: 1px solid #3c98c7;
-				text-align: left;
-		    color: #000080;
-			}
-
-tbody {
-    background-color: #d7f0f5;
-}
-
 .height
 		{height: 1.2rem;
 		}
-
-td,
-th {
-    border-style: none; /*: 1px solid #3c98c7;*/
-		padding: 1px 10px;
-}
-
-td {
-    text-align: center;
-}
-
-
-dt {
-    font-weight: bold;
-}
-
-dl,
-dd {
-
-    font-size: .9rem;
-}
-
-dd {
-    margin-bottom: 1rem;
-}
