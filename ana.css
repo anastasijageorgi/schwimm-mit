@@ -161,6 +161,7 @@ figcaption
 	font-family: Raleway, sans-serif;
 	color:  #007a99;      /* #00cccc */
 	font-size: 1.3rem;
+	word-wrap: break-word;
 	font-style: italic;
 	margin: 1rem 1rem 1rem 1rem;
 	}
