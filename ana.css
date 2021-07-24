@@ -49,7 +49,7 @@ h2, h2 a 	{
 	font-size: 1.3rem;
 	word-wrap: break-word;
 	margin-top: .4rem;
-	margin-left: 1rem;
+
 	}
 
 h3, h3 a 	{
@@ -67,7 +67,7 @@ h2 a:hover {color: #000080;}
 p  a:link, p a:visited,  p a:active
 	{
 	color: #00cccc;
-	font-size: 1.1rem;
+	font-size: 1.2rem;
 	}
 p a:hover {color: #000080;}
 
@@ -160,7 +160,7 @@ figcaption
 	{
 	font-family: Raleway, sans-serif;
 	color:  #007a99;      /* #00cccc */
-	font-size: 1.3rem;
+	font-size: 1.2rem;
 	word-wrap: break-word;
 	font-style: italic;
 	margin: 1rem 1rem 1rem 1rem;
@@ -433,6 +433,8 @@ main	{
 
 #haiflosse{}
 
+#beitrag{}
+
 #blasen
 	{
 	display: flex;
@@ -523,12 +525,12 @@ main	{
 		max-width: 22rem;
 		height: min-content;
 		background-color: #b0e0e6;
-		border-top-left-radius: 5rem;
+		border-top-left-radius: 4rem;
 		border-top-right-radius: 2rem;
 		border-bottom-left-radius: 2rem;
-		border-bottom-right-radius: 5rem;
+		border-bottom-right-radius: 4rem;
 		padding: 1.6rem;
-		margin: 1rem auto 1rem auto;
+		margin: 1rem 0 1rem 0;
 		}
 
 .preis

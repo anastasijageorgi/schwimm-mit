@@ -7,9 +7,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="1240"
-   height="500"
-   viewBox="0 0 328.08334 132.29167"
+   width="1310"
+   height="534"
+   viewBox="0 0 346.60417 141.2875"
    version="1.1"
    id="svg8"
    inkscape:version="1.0.1 (c497b03c, 2020-09-10)"
@@ -131,14 +131,13 @@
      id="layer1"
      transform="translate(0,-256.99999)">
     <rect
-       style="opacity:0.699317;fill:#f9f9f9;fill-opacity:0.712;stroke-width:0.101481;stroke-linecap:square;paint-order:fill markers stroke"
+       style="opacity:0.8;fill:#f9f9f9;fill-opacity:0.89999998;stroke-width:0.101695;stroke-linecap:square;paint-order:fill markers stroke"
        id="rect3970"
-       width="341.3125"
-       height="142.875"
-       x="-6.6145835"
-       y="251.70833"
-       rx="50.270832"
-       ry="50.270832" />
+       width="346.60416"
+       height="141.28751"
+       x="5.0862632e-06"
+       y="257"
+       ry="40" />
     <text
        xml:space="preserve"
        id="text873"
@@ -151,7 +150,7 @@
        inkscape:transform-center-y="43.531594" />
     <g
        id="g952"
-       transform="translate(3.9687496,3.3072917)">
+       transform="translate(13.229166,7.8052083)">
       <g
          id="g2461"
          transform="matrix(0.98408003,0,0,0.98408003,-30.735411,0.51295147)">
