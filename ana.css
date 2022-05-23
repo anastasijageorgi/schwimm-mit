@@ -227,7 +227,6 @@ picture	{
   max-width: 27rem;
 	height: min-content;
 	background-color: #d5f6ff;
-	/*border: solid 1px #00cccc;*/
 	border-top-left-radius: 2rem;
 	border-top-right-radius: 1rem;
 	border-bottom-left-radius: 1rem;
@@ -524,7 +523,7 @@ main	{
 		{
 		max-width: 22rem;
 		height: min-content;
-		background-color: #d5f6ff;/*#b0e0e6;*/
+		background-color: #d5f6ff;
 		border-top-left-radius: 2rem;
 		border-top-right-radius: 1rem;
 		border-bottom-left-radius: 1rem;
