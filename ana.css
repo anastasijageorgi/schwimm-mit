@@ -227,13 +227,13 @@ picture	{
   max-width: 27rem;
 	height: min-content;
 	background-color: #d5f6ff;
-	border: solid 5px #3c98c7;
-	border-top-left-radius: 3rem;
-	border-top-right-radius: 1.6rem;
-	border-bottom-left-radius: 1.6rem;
-	border-bottom-right-radius: 3rem;
+	/*border: solid 1px #00cccc;*/
+	border-top-left-radius: 2rem;
+	border-top-right-radius: 1rem;
+	border-bottom-left-radius: 1rem;
+	border-bottom-right-radius: 2rem;
 	padding: 1rem;
-	margin: 1rem 1rem 1rem 1rem;
+	margin: 0.5rem 0.5rem 1rem 0.5rem;
 	}
 
 .komentar
@@ -254,7 +254,7 @@ picture	{
 	max-width: 80%;
 	height: min-content;
 	background-color: /*#d5f6ff;*/  #f3ffe6;
-	border: solid 5px #3c98c7;
+	border: solid 2px #3c98c7;
 	border-top-left-radius: 1.6rem;
 	border-top-right-radius: 1.6rem;
 	border-bottom-left-radius: 1.6rem;
@@ -453,7 +453,7 @@ main	{
 	border-bottom-left-radius: 1.6rem;
 	border-bottom-right-radius: 1.6rem;
 	padding: 1.6rem;
-	margin: 1.4rem 0.5rem 0.5rem 0.5rem;
+	margin: 1.4rem 0.5rem 1rem 0.5rem;
 	}
 
 #mission0
@@ -461,12 +461,12 @@ main	{
 	max-width: 27rem;
 	height: min-content;
 	background-color: #c2f0f0;
-	border-top-left-radius: 5rem;
-	border-top-right-radius: 2rem;
-	border-bottom-left-radius: 2rem;
-	border-bottom-right-radius: 5rem;
+	border-top-left-radius: 3rem;
+	border-top-right-radius: 1rem;
+	border-bottom-left-radius: 1rem;
+	border-bottom-right-radius: 3rem;
 	padding: 1.6rem;
-	margin: 0.5rem;
+	margin: 0.5rem 0.5rem 1rem 0.5rem;
 	}
 
 #mission1
@@ -474,12 +474,12 @@ main	{
 	max-width: 27rem;
 	height: min-content;
 	background-color: #99e6e6;
-	border-top-left-radius: 5rem;
-	border-top-right-radius: 2rem;
-	border-bottom-left-radius: 2rem;
-	border-bottom-right-radius: 5rem;
+	border-top-left-radius: 3rem;
+	border-top-right-radius: 1rem;
+	border-bottom-left-radius: 1rem;
+	border-bottom-right-radius: 3rem;
 	padding: 1.6rem;
-	margin: 0.5rem;
+	margin: 0.5rem 0.5rem 1rem 0.5rem;
 	}
 
 #mission2
@@ -487,12 +487,12 @@ main	{
 	max-width: 27rem;
 	height: min-content;
 	background-color: #70dbdb;
-	border-top-left-radius: 2rem;
-	border-top-right-radius: 5rem;
-	border-bottom-left-radius: 5rem;
-	border-bottom-right-radius: 2rem;
+	border-top-left-radius: 1rem;
+	border-top-right-radius: 3rem;
+	border-bottom-left-radius: 3rem;
+	border-bottom-right-radius: 1rem;
 	padding: 1.6rem;
-	margin: 0.5rem;
+	margin: 0.5rem 0.5rem 1rem 0.5rem;
 	}
 
 #mission3
@@ -500,12 +500,12 @@ main	{
 	max-width: 27rem;
 	height: min-content;
 	background-color: #b0e0e6;
-	border-top-left-radius: 5rem;
-	border-top-right-radius: 2rem;
-	border-bottom-left-radius: 2rem;
-	border-bottom-right-radius: 5rem;
+	border-top-left-radius: 3rem;
+	border-top-right-radius: 1rem;
+	border-bottom-left-radius: 1rem;
+	border-bottom-right-radius: 3rem;
 	padding: 1.6rem;
-	margin: 0.5rem;
+	margin: 0.5rem 0.5rem 1rem 0.5rem;
 	}
 
 #mission4
@@ -513,24 +513,24 @@ main	{
 	max-width: 48rem;
 	height: min-content;
 	background-color: #add8e6;
-	border-top-left-radius: 2rem;
-	border-top-right-radius: 5rem;
-	border-bottom-left-radius: 5rem;
-	border-bottom-right-radius: 2rem;
+	border-top-left-radius: 1rem;
+	border-top-right-radius: 3rem;
+	border-bottom-left-radius: 3rem;
+	border-bottom-right-radius: 1rem;
 	padding: 1.6rem;
-	margin: 0.5rem;
+	margin: 0.5rem 0.5rem 1rem 0.5rem;
 	}
 	#mission5
 		{
 		max-width: 22rem;
 		height: min-content;
-		background-color: #b0e0e6;
-		border-top-left-radius: 4rem;
-		border-top-right-radius: 2rem;
-		border-bottom-left-radius: 2rem;
-		border-bottom-right-radius: 4rem;
+		background-color: #d5f6ff;/*#b0e0e6;*/
+		border-top-left-radius: 2rem;
+		border-top-right-radius: 1rem;
+		border-bottom-left-radius: 1rem;
+		border-bottom-right-radius: 2rem;
 		padding: 1.6rem;
-		margin: 0.5rem 0 1rem 0;
+		margin: 0.5rem 0.5rem 1rem 0.5rem;
 		}
 
 .preis
