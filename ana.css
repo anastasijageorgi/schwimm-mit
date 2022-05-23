@@ -453,7 +453,7 @@ main	{
 	border-bottom-left-radius: 1.6rem;
 	border-bottom-right-radius: 1.6rem;
 	padding: 1.6rem;
-	margin: 1.4rem 1rem 1rem 1rem;
+	margin: 1.4rem 0.5rem 0.5rem 0.5rem;
 	}
 
 #mission0
@@ -466,7 +466,7 @@ main	{
 	border-bottom-left-radius: 2rem;
 	border-bottom-right-radius: 5rem;
 	padding: 1.6rem;
-	margin: 1rem;
+	margin: 0.5rem;
 	}
 
 #mission1
@@ -479,7 +479,7 @@ main	{
 	border-bottom-left-radius: 2rem;
 	border-bottom-right-radius: 5rem;
 	padding: 1.6rem;
-	margin: 1rem;
+	margin: 0.5rem;
 	}
 
 #mission2
@@ -492,7 +492,7 @@ main	{
 	border-bottom-left-radius: 5rem;
 	border-bottom-right-radius: 2rem;
 	padding: 1.6rem;
-	margin: 1rem;
+	margin: 0.5rem;
 	}
 
 #mission3
@@ -505,7 +505,7 @@ main	{
 	border-bottom-left-radius: 2rem;
 	border-bottom-right-radius: 5rem;
 	padding: 1.6rem;
-	margin: 1rem;
+	margin: 0.5rem;
 	}
 
 #mission4
@@ -518,7 +518,7 @@ main	{
 	border-bottom-left-radius: 5rem;
 	border-bottom-right-radius: 2rem;
 	padding: 1.6rem;
-	margin: 1rem;
+	margin: 0.5rem;
 	}
 	#mission5
 		{
@@ -530,7 +530,7 @@ main	{
 		border-bottom-left-radius: 2rem;
 		border-bottom-right-radius: 4rem;
 		padding: 1.6rem;
-		margin: 1rem 0 1rem 0;
+		margin: 0.5rem 0 1rem 0;
 		}
 
 .preis
